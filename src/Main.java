@@ -14,5 +14,18 @@ public class Main {
         SeparatedNumbers_Task.solution_1(a1, a2, b1, b2);
         SeparatedNumbers_Task.solution_2(a1, a2, b1, b2);
         SeparatedNumbers_Task.solution_3(a1, a2, b1, b2);
+
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        char operator = sc.next().charAt(0);
+        Calculator.input(a, b, operator);
+
+        int num_a = sc.nextInt();
+        int num_b = sc.nextInt();
+        SwapWithNoIf_Task.solution(num_a, num_b);
+
+        int weight = sc.nextInt();
+        int height = sc.nextInt();
+        BMI_Task.solution(weight, height);
     }
 }
